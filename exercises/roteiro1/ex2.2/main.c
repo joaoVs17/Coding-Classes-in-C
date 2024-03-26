@@ -18,7 +18,7 @@ int main() {
   printf("Insert a string: ");
   char *string = readString(15);
   printf("\n");
-  printf("Inserted String: \n");
+  printf("Inserted String: ");
   printString(string, 0);
 
   free(string);
